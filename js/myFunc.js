@@ -1,21 +1,3 @@
-/*
-function submitFunc() {
-  var activity = $("#activity").val();
-  var time = $("#time").val();
-  
-  var result = 10000 / time;
-  var day = Math.round(result);
-  var year = day / 365;
-  year = Math.round(year * 100) / 100;
-  
-  //var str = "私は%sを毎日%d時間やることで%d日後(%.2f年後)にマスターします".sprintf(activity, time, day, year);
-  
-  var str = "私は" + activity + "を毎日" + time + "時間やることで、" + day + "日後(" + year + "年後)にマスターします。";
-  
-  $("#str").html(str + "<a href=\"https://twitter.com/intent/tweet?text=" + str + " http://shun-ichiro.com/10000 @pinkroot\" target=\"_blank\">" + "<img src=\"./img/tweet.gif\" alt=\"ツイートする\">" + "</a>");
-}
-*/
-
 function submitFunc() {
   var weight = $("#weight").val();
   var glam = weight * 1000;
