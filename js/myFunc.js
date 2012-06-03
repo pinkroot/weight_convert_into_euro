@@ -14,7 +14,7 @@ function submitFunc() {
 
 	var str = "私の体重を1ユーロコインに換算すると" + convert_coin + "ユーロ分で、日本円にして" + value + "円の価値があります。";
 	
-	$("#str").html(str + "<a href=\"https://twitter.com/intent/tweet?text=" + str + " http://shun-ichiro.com/euro @pinkroot\" target=\"_blank\">" + "<img src=\"./img/tweet.gif\" alt=\"ツイートする\">" + "</a>");
+	$("#str").html(str + "<a href=\"https://twitter.com/intent/tweet?text=" + str + " http://shun-ichiro.com/euro/ @pinkroot\" target=\"_blank\">" + "<img src=\"./img/tweet.gif\" alt=\"ツイートする\">" + "</a>");
 
 }
 
